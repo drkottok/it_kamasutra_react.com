@@ -1,0 +1,11 @@
+.nav {
+    grid-area: area_Nav;
+    background-color:rgb(0, 255, 64) ;
+
+}
+
+.item {
+    color:blue;
+}
+
+

@@ -1,15 +1,21 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import './App.css';
+import Header from './Components/Header';
+import Nav from './Components/Nav';
+import Profile from './Components/Profile';
+import Footer from './Components/Footer';
 
-const App = () => {
+
+const  App = () => {
     return (
-     <div className="App">
-         <ul>
-           <li> dr.kottok 1</li>
-           <li> dr.kottok 2</li>
-           <li> dr.kottok 3</li>
-          </ul>
-     </div>
+        <div className='app-wrapper'>
+            <Header/>
+            <Nav/>
+            <Profile />
+            <Footer />
+        </div>
     );
 }
+
+
 export default App;

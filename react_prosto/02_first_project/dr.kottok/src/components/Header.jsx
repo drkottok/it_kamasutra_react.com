@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from './Header';
 
 
 
-const  Header = () => {
+const header = () => {
     return <header className='header'>
-        <img src = 'https://fb.ru/media/i/3/0/5/3/6/7/i/305367.jpg' /> 
-      </header>;
-}
+    <p>header</p>
 
-  export default Header;
+</header>
+}
+export default Header;
+
+

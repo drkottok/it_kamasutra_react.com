@@ -1,36 +1,14 @@
 .app-wrapper{
+  margin: 0 auto;
   display: grid;
-   margin: 0 auto;
+   width: 1200px;
    grid-template-areas: 
-  "area_Header area_Header" 
+  "area_Header area_Header " 
   "area_Nav area_Profile ";
-  grid-template-rows: 156px 456sfr;
-  grid-template-rows: 45fr 678fr;
-  grid-template-rows: 10px ;
-  width: 100px;
-}
-
-.Header {
-grid-area: area_Header;
-background-color:rgb(38, 0, 255) ;
+  grid-template-rows: 1fr 6fr 5fr;
+  grid-template-columns: 2fr  5fr ;
+  
+  
 
 }
 
-.Header img {
-width: 100px;
-}
-
-.Nav { 
-  grid-area: area_Nav;
-  background-color:rgb(0, 255, 64) ;
-
-}
-
-.Profile {
-  grid-area: area_Profile;
-  background-color:rgb(98, 0, 255) ;
-
-}
-.Profile img {
-  width: 250px  ;
-}
